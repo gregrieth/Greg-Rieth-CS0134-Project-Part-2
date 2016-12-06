@@ -1,0 +1,38 @@
+div {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: green;
+  border: 3px solid black;
+  margin: 10px;
+}
+
+main {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#gallery {
+  width: 600px;
+  height: 300px;
+  overflow:hidden;
+}
+
+#gallery ul{
+  list-style: none;
+  width: 3600px;
+  height: 300px;
+}
+
+#gallery ul li{
+  float: left;
+  width: 600px;
+  height: 300px;
+}
+
+#gallery ul li img{
+  width: 600px;
+  height: 300px;
+}

@@ -1,0 +1,32 @@
+div {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+img {
+  animation-name: animation;
+  animation-duration: 5s;
+}
+
+@keyframes animation {
+  from{
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to{
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+header {
+  background-color: green;
+  border: 3px solid black;
+  margin: 10px;
+}

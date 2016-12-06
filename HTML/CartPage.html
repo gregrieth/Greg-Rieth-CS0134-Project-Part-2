@@ -1,0 +1,31 @@
+<DOCTYPE! html>
+
+<html lang="en">
+  <head>
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="../CSS/CartPageStyle.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="CommerceWebsiteHomepage.html"><img src="../Images/company icon.png" height="150" width="150"></a>
+      <div>
+        <h1>Your Cart</h1>
+        <a href="CommerceWebsiteHomepage.html">Home</a>
+        <a href="ProductIndexPage.html">Product List</a>
+      </div>
+    </header>
+
+    <main>
+      <form name="Check-Out" action="purchase.php" method="post">
+        <p>Please enter your credit card number and address for delivery
+           to complete the transaction.</p>
+        <p>Credit Card Number: <input type="text" name="card number"></p>
+        <p>Delivery Address: <input type="text" name="address"></p>
+        <p><input type="submit" name="submit" value="Complete Transaction"></p>
+        <p><input type="submit" name="submit" value="Cancel"></p>
+      </form>
+    </main>
+
+  </body>
+</html>
